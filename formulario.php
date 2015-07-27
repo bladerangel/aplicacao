@@ -20,10 +20,10 @@
 
 	}
 
-	function validar()
-	{
+	// function validar()
+	// {
 
-	}
+	// }
 
 ?>
 
@@ -55,8 +55,6 @@
 			<br>
 			<input type="submit" value="Cadastrar">
 			
-
-
 		</form>
 
 	</body>
