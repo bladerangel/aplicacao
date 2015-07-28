@@ -16,9 +16,9 @@
 		}
 
 		$stmt = $connection->prepare("insert into sign_up (name, age, gender, login, pass) values(?,?,?,?,?)");
-		$stmt->bindParam(1, $_POST["nome"]);
-		$stmt->bindParam(2, $_POST["idade"]);
-		$stmt->bindParam(3, $_POST["sexo"]);
+		$stmt->bindParam(1, $_POST["name"]);
+		$stmt->bindParam(2, $_POST["age"]);
+		$stmt->bindParam(3, $_POST["gender"]);
 		$stmt->bindParam(4, $_POST["login"]);
 		$stmt->bindParam(5, $pass);
 
